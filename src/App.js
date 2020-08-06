@@ -10,7 +10,7 @@ function App() {
   // States
   const [query, setQuery] = useState({});
   const [lyrics, setLyrics] = useState("");
-  const [infoArtist, setInfoArtist] = useState([]);
+  const [infoArtist, setInfoArtist] = useState({});
 
   useEffect(() => {
     if (Object.keys(query).length === 0) return;

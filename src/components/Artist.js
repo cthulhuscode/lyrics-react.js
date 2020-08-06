@@ -50,7 +50,7 @@ const Artist = ({ infoArtist }) => {
 };
 
 Artist.propTypes = {
-  infoArtist: PropTypes.array.isRequired,
+  infoArtist: PropTypes.object.isRequired,
 };
 
 export default Artist;
